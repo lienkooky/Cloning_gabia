@@ -16,8 +16,6 @@
   background-color: #1d7abd;
 }
 #info {
-  height: 515px;
-  background-color: #f44336;
 }
 #ad {
   height: 451px;
@@ -172,6 +170,18 @@
   padding: 3%;
   height: 300px;
 }
+.select > div.simg1 {
+  background: #2886ca url(../img/select-bg1.png) no-repeat 30px 220px;
+  background-size: 80px;
+}
+.select > div.simg2 {
+  background: #2886ca url(../img/select-bg2.png) no-repeat 30px 220px;
+  background-size: 80px;
+}
+.select > div.simg3 {
+  background: #2886ca url(../img/select-bg3.png) no-repeat 30px 220px;
+  background-size: 80px;
+}
 .select > div h4 {
   padding-bottom: 20px;
   font-size: 18px;
@@ -181,4 +191,18 @@
 .select > div p {
   font-size: 15px;
   color: #d2f0ff;
+}
+
+/* info */
+.info {
+  padding: 70px 0;
+  text-align: center;
+}
+.info h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.info p {
+  font-size: 18px;
+  color: #666;
 }
