@@ -3,11 +3,11 @@
 }
 #header {
   height: 89px;
-  background-color: #ffcdd2;
+  border-bottom: 1px solid #efefef;
 }
 #banner {
   height: 550px;
-  background-color: #ef9a9a;
+  background: url(../img/banner-bg3.jpg) no-repeat center top;
 }
 #sbanner {
   height: 228px;
@@ -40,8 +40,59 @@
 
 /* container */
 .container {
+  margin: 0 auto;
   width: 1180px;
   height: inherit;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+/* header */
+.header {
+  overflow: hidden;
+}
+.header a:hover {
+  color: #1d7abd;
+}
+.header h1 {
+  float: left;
+  padding-top: 24px;
+  padding-right: 30px;
+}
+.header .gnb {
+  float: left;
+}
+.header .gnb li {
+  display: inline;
+}
+
+.header .gnb li a {
+  display: inline-block;
+  font-size: 18px;
+  padding: 32px 12px;
+}
+.header .quick {
+  float: right;
+}
+.header .quick li {
+  display: inline;
+  position: relative;
+}
+.header .quick li::before {
+  content: '';
+  width: 1px;
+  height: 10px;
+  background-color: #ccc;
+  position: absolute;
+  right: 0;
+  top: 1px;
+}
+.header .quick li:last-child::before {
+  width: 0;
+  height: 0;
+}
+.header .quick li a {
+  display: inline-block;
+  font-size: 14px;
+  padding: 34px 11px 34px 8px;
+  color: #676767;
 }
