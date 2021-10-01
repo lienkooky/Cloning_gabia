@@ -201,8 +201,42 @@
 .info h3 {
   font-size: 40px;
   font-weight: bold;
+  padding-bottom: 20px;
 }
 .info p {
   font-size: 18px;
   color: #666;
+  padding-bottom: 50px;
+}
+.info .info-box {
+  overflow: hidden;
+  text-align: left;
+  padding: 0 220px;
+}
+.info .info-box h4 {
+  font-size: 16px;
+  color: #333;
+  padding: 5px;
+}
+.info .info-box .in-left {
+  width: 50%;
+  float: left;
+}
+.info .info-box .in-left em {
+  font-size: 24px;
+  display: inline-block;
+  color: #333;
+  width: 170px;
+}
+.info .info-box .in-left strong {
+  font-size: 30px;
+  color: #0081c8;
+}
+.info .info-box .in-right {
+  width: 50%;
+  float: left;
+}
+.info .info-box .in-right li {
+  font-size: 16px;
+  color: #333;
 }
