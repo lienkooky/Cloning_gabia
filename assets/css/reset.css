@@ -25,3 +25,15 @@ button {
   margin: 0;
   padding: 0;
 }
+
+/* ir 효과 */
+.ir {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
