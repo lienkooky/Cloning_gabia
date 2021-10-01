@@ -1,0 +1,47 @@
+/* layout */
+#wrap {
+}
+#header {
+  height: 89px;
+  background-color: #ffcdd2;
+}
+#banner {
+  height: 550px;
+  background-color: #ef9a9a;
+}
+#sbanner {
+  height: 228px;
+  background-color: #e57373;
+}
+#select {
+  height: 498px;
+  background-color: #ef5350;
+}
+#info {
+  height: 515px;
+  background-color: #f44336;
+}
+#ad {
+  height: 451px;
+  background-color: #e53935;
+}
+#blog {
+  height: 1000px;
+  background-color: #d32f2f;
+}
+#site {
+  height: 500px;
+  background-color: #c62828;
+}
+#footer {
+  height: 300px;
+  background-color: #b71c1c;
+}
+
+/* container */
+.container {
+  width: 1180px;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
