@@ -35,8 +35,7 @@
 #blog {
 }
 #site {
-  height: 500px;
-  background-color: #c62828;
+  background-color: #f8f9fa;
 }
 #footer {
   height: 300px;
@@ -395,4 +394,36 @@
   color: #fff;
   margin-right: 20px;
   padding: 5px 10px;
+}
+
+/* site */
+.site {
+  overflow: hidden;
+  padding: 70px 0;
+}
+.site > div {
+  width: 16.6666%;
+  float: left;
+}
+.site > div h4 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.site > div li {
+  padding-bottom: 5px;
+}
+.site > div li a {
+  font-size: 16px;
+  color: #666;
+}
+.site > div.two {
+  width: 33.2222%;
+}
+.site > div.two ul {
+  overflow: hidden;
+}
+.site > div.two li {
+  float: left;
+  width: 50%;
 }
