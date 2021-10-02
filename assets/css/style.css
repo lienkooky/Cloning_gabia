@@ -567,9 +567,31 @@
 .product-table {
   padding: 80px 0;
 }
-.product-table .table-title1 {
+.product-table .more {
+  text-align: center;
+  padding: 20px 0 40px;
+  font-size: 14px;
 }
-.product-table .table-style1 {
+.product-table .list li {
+  font-size: 14px;
+  line-height: 28px;
+  padding-left: 10px;
+  position: relative;
+}
+.product-table .list li::before {
+  content: '';
+  left: 0;
+  top: 11px;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #333;
+}
+.product-table .list li .help {
+  padding-left: 5px;
+  color: #1d7abd;
+  font-size: 18px;
 }
 
 /* table-title1 */
@@ -648,7 +670,7 @@
 }
 .table-style1 .view {
   display: inline-block;
-  padding: 7px 32px;
+  padding: 5px 45px;
   color: #fff;
   background-color: #3090d6;
   font-size: 16px;
