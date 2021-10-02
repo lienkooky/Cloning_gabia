@@ -509,6 +509,8 @@
 #sub-banner.mail-bg {
   background: url(../img/mail-bg1.png) repeat-x center top;
 }
+#product-table {
+}
 
 /* sub */
 .sub-banner {
@@ -559,4 +561,37 @@
 .sub-banner .sb-right li a:hover {
   color: #fff;
   border-color: #fff;
+}
+
+/* product-table */
+.product-table {
+  padding: 80px 0;
+}
+.product-table .table-title1 {
+}
+.product-table .table-style1 {
+}
+
+/* table-title1 */
+.table-title1 {
+  position: relative;
+}
+.table-title1 li {
+  display: inline-block;
+}
+.table-title1 li a {
+  font-size: 18px;
+  color: #999;
+  padding: 0 10px;
+}
+.table-title1 .detail {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 18px;
+  color: #1d7abd;
+}
+
+/* table-style1 */
+.table-style1 {
 }
