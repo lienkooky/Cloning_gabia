@@ -22,7 +22,8 @@ legend,
 textarea,
 p,
 select,
-button {
+button,
+figure {
   margin: 0;
   padding: 0;
 }

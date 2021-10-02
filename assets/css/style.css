@@ -33,8 +33,6 @@
   left: 0;
 }
 #blog {
-  height: 1000px;
-  background-color: #d32f2f;
 }
 #site {
   height: 500px;
@@ -288,4 +286,64 @@
 .ad .view:hover {
   background-color: #fff;
   color: #000;
+}
+
+/* blog */
+.blog {
+  padding: 70px 0;
+}
+.blog h3 {
+  font-size: 34px;
+  padding-bottom: 50px;
+}
+.blog .blog-wrap {
+  height: 440px;
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+.blog .blog-wrap > div {
+  float: left;
+  width: 23.5%;
+  margin-right: 2%;
+  border-top: 2px solid #6f6f6f;
+}
+.blog .blog-wrap > div:last-child {
+  margin-right: 0;
+}
+.blog .blog-wrap > div h4 {
+  font-size: 22px;
+  padding: 25px 0 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.blog .blog-wrap > div p {
+  font-size: 16px;
+  color: #7e7e7e;
+  margin-bottom: 40px;
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.blog .blog-wrap > div figure img {
+  width: 100%;
+}
+.blog .notice-wrap {
+  height: 257px;
+  overflow: hidden;
+}
+.blog .notice-wrap .nw-left {
+  float: left;
+  width: 780px;
+  height: 257px;
+  background-color: #999;
+}
+.blog .notice-wrap .nw-right {
+  float: right;
+  width: 375px;
+  height: 257px;
+  background-color: #888;
 }
