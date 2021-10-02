@@ -47,3 +47,9 @@
 > 웹 문서의 푸터 영역을 나타냅니다.<br>
 > footer는 저작권 정보, 회사 정보, 관련 링크, 주소, 바닥글, 사이트 정보 등을 포함하는 콘텐츠 영역입니다.<br>
 > footer는 섹션 콘텐츠가 아닌 그룹을 나타내는 요소이며, section, article, aside 등을 포함할 수 있습니다.<br>
+
+### position:relative
+
+> position:absolute의 기준점이 필요할 때 사용합니다.<br>
+> z-index를 사용해야하는 경우 포지션 값이 없으면 relative를 사용하여 z-index의 값을 인식시킬 수 있습니다.<br>
+> 요소의 위치를 유지한 채 left, top, right, bottom의 위치 값을 사용하고 싶을 때 사용할 수 있습니다.<br>
