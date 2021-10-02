@@ -211,16 +211,21 @@
 .info .info-box {
   overflow: hidden;
   text-align: left;
-  padding: 0 220px;
+  padding: 0 210px;
 }
 .info .info-box h4 {
   font-size: 16px;
   color: #333;
   padding: 5px;
 }
+.info .info-box h4 i {
+  color: #0081c8;
+}
 .info .info-box .in-left {
   width: 50%;
   float: left;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
 }
 .info .info-box .in-left em {
   font-size: 24px;
@@ -235,6 +240,8 @@
 .info .info-box .in-right {
   width: 50%;
   float: left;
+  padding-left: 50px;
+  box-sizing: border-box;
 }
 .info .info-box .in-right li {
   font-size: 16px;
