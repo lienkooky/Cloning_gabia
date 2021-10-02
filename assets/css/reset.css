@@ -70,6 +70,13 @@ a {
   text-decoration: none;
 }
 
+/* table 초기화 */
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
 /* ir 효과 */
 .ir {
   width: 0;
